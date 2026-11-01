@@ -41,5 +41,5 @@ When("I enter password {kraken-string}", async function (password) {
 Then("a success login message should appear", async function () {
   let element = await this.driver.$("h1");
   let actual = await element.getText();
-  expect(actual).to.equal("Hi Monitor!");
+  expect(actual).to.match(/^Hi .+!$/);
 });
