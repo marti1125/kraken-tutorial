@@ -1,0 +1,21 @@
+{
+  "name": "kraken-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node run-kraken.cjs run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@cucumber/cucumber": "7.2.1",
+    "@cucumber/gherkin": "18.0.0",
+    "@cucumber/messages": "15.0.0",
+    "chai": "~5.3.3",
+    "fs-extra": "~11.4.1",
+    "kraken-node": "1.0.24"
+  }
+}
